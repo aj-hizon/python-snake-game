@@ -14,8 +14,8 @@ screen.tracer(0)
 snake = Snake()
 food = Food()
 scoreboard = Scoreboard()
-design_proku = Design((0, -270), text = "SNAKE GAME", font = ("Arial", 10, "bold"))
-
+design_proku = Design(goto = (0, -270), text = "SNAKE GAME", font = ("Arial", 13, "bold"))
+design_author = Design(goto = (0, -280), text = "-BY PROKU-", font = ("Arial", 6, "bold"))
 
 screen.listen()
 screen.onkey(snake.up, "Up")

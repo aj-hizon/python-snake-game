@@ -7,5 +7,5 @@ class Design(Turtle):
         self.hideturtle()
         self.penup()
         self.goto(goto)
-        self.write(arg = text, align = "center", font = ("Arial", 10, "bold"))
+        self.write(arg = text, align = "center", font = font)
         
