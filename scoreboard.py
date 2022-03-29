@@ -2,17 +2,10 @@ from turtle import Turtle, Screen
 ALIGNMENT = "center"
 FONT = ("Arial", 15, "bold")
 
-# --opening the file--
+# --opening the data high_score file--
 with open('snakeGame\data.txt') as high:
     score_high = high.read()
     print(score_high)
-    
-
-# --writing inside the file--
-# with open('day-24-file-system\proku-statement.txt', mode="a") as file:
-#     file.write("\nalaanyare")
-
-
 
 
 class Scoreboard(Turtle):
