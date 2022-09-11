@@ -3,7 +3,7 @@ ALIGNMENT = "center"
 FONT = ("Arial", 15, "bold")
 
 # --opening the data high_score file--
-with open('snakeGame\data.txt') as high:
+with open(r'python\snake-game\data.txt') as high:
     score_high = high.read()
     print(score_high)
 
